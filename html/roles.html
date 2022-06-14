@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+
+
+
+<!-- beautify ignore:start -->
+<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed " dir="ltr" data-theme="theme-default" data-assets-path="../assets/" data-template="vertical-menu-template">
+
+  
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Roles  | Vikundi System </title>
+    
+      <meta name="description" content="Manage your Vicoba Records" />
+    <meta name="keywords" content="Vicoba, SACCOS, Stanbic">
+
+    
+    <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="../assets/vendor/fonts/flag-icons.css" />
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+     <link rel="stylesheet" href="../assets/css/custom.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css">
+<link rel="stylesheet" href="../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css">
+<link rel="stylesheet" href="../assets/vendor/libs/formvalidation/dist/css/formValidation.min.css" />
+
+    <!-- Page CSS -->
+    
+    <!-- Helpers -->
+    <script src="../assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+    <script src="../assets/vendor/js/template-customizer.js"></script>
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../assets/js/config.js"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    <!-- Custom notification for demo -->
+    <!-- beautify ignore:end -->
+
+</head>
+
+<body>
+
+  <!-- Layout wrapper -->
+<div class="layout-wrapper layout-content-navbar  ">
+  <div class="layout-container">
+
+    
+    
+
+
+
+
+<!-- Menu -->
+
+
+<aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+
+
+  <div class="app-brand demo ">
+    <a href="index.html" class="app-brand-link">
+      <span class="app-brand-logo demo">
+        <img src="../assets/img/favicon.png " width="28px"   height="28px">
+
+      </span>
+      <span class="app-brand-text demo menu-text fw-bold ms-2"> Vikundi</span>
+    </a>
+
+    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
+      <i class="bx menu-toggle-icon d-none d-xl-block fs-4 align-middle"></i>
+      <i class="bx bx-x d-block d-xl-none bx-sm align-middle"></i>
+    </a>
+  </div>
+
+
+  <div class="menu-divider mt-0  ">
+  </div>
+
+  <div class="menu-inner-shadow"></div>
+
+
+
+  <ul class="menu-inner py-1">
+    <!-- Dashboards -->
+    <li class="menu-item active open">
+      <a href="index.html" class="menu-link ">
+        <i class="menu-icon tf-icons bx bx-home-circle"></i>
+        <div data-i18n="Dashboard">Dashboard</div>
+      </a>
+
+    </li>
+
+    <!-- User Management -->
+    <li class="menu-header small text-uppercase"><span class="menu-header-text">Users</span></li>
+    <li class="menu-item">
+      <a href="users.html" class="menu-link">
+        <i class="menu-icon tf-icons bx bx-group"></i>
+        <div data-i18n="Manage Users">Manage Users </div>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="javascript:void(0);" class="menu-link menu-toggle">
+        <i class="menu-icon tf-icons bx bx-user-check"></i>
+        <div data-i18n="Roles & Permissions">Roles & Permissions</div>
+      </a>
+      <ul class="menu-sub">
+        <li class="menu-item">
+          <a href="roles.html" class="menu-link">
+            <div data-i18n="Roles">Roles</div>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="permissions.html" class="menu-link ">
+            <div data-i18n="Permissions">Permissions</div>
+          </a>
+
+        </li>
+      </ul>
+    </li>
+    <li class="menu-item">
+      <a href="javascript:void(0);" class="menu-link menu-toggle">
+        <i class="menu-icon tf-icons bx bx-detail"></i>
+        <div data-i18n="Reports">Reports</div>
+      </a>
+      <ul class="menu-sub">
+        <li class="menu-item">
+          <a href="app-user-list.html" class="menu-link">
+            <div data-i18n="Report 1">Report 1</div>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="menu-link ">
+            <div data-i18n="Report 2">Report 2</div>
+          </a>
+
+        </li>
+      </ul>
+    </li>
+
+
+    <!-- Group Management -->
+    <li class="menu-header small text-uppercase"><span class="menu-header-text">Vikundi</span></li>
+    <li class="menu-item">
+      <a href="groups.html" class="menu-link">
+        <i class="menu-icon tf-icons bx bx-group"></i>
+        <div data-i18n="Manage Group ">Manage Groups</div>
+      </a>
+    </li>
+
+    <li class="menu-item">
+      <a href="javascript:void(0);" class="menu-link menu-toggle">
+        <i class="menu-icon tf-icons bx bx-detail"></i>
+        <div data-i18n="Reports">Reports</div>
+      </a>
+      <ul class="menu-sub">
+        <li class="menu-item">
+          <a href="app-user-list.html" class="menu-link">
+            <div data-i18n="Report 1">Report 1</div>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="menu-link ">
+            <div data-i18n="Report 2">Report 2</div>
+          </a>
+
+        </li>
+      </ul>
+    </li>
+
+
+
+
+
+    <!-- Logs-->
+    <li class="menu-header small text-uppercase"><span class="menu-header-text">User Logs</span></li>
+    <li class="menu-item">
+      <a href="logs.html" target="_blank" class="menu-link">
+        <i class="menu-icon tf-icons bx bx-message"></i>
+        <div data-i18n="Logs">Logs</div>
+      </a>
+    </li>
+  </ul>
+
+
+
+</ul>
+
+
+</aside>
+<!-- / Menu -->
+
+    
+
+    <!-- Layout container -->
+    <div class="layout-page">
+      
+      
+
+
+
+<!-- Navbar -->
+
+
+
+
+
+  
+
+  
+  <nav class="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
+    <div class="container-fluid">
+      
+
+      
+      
+      
+
+      
+      
+      <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0   d-xl-none ">
+        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+          <i class="bx bx-menu bx-sm"></i>
+        </a>
+      </div>
+      
+
+      <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+
+        
+        <!-- Search -->
+        <div class="navbar-nav align-items-center">
+          <div class="nav-item navbar-search-wrapper mb-0">
+            <a class="nav-item nav-link search-toggler px-0" href="javascript:void(0);">
+              <i class="bx bx-search-alt bx-sm"></i>
+              <span class="d-none d-md-inline-block text-muted">Search (Ctrl+/)</span>
+            </a>
+          </div>
+        </div>
+        <!-- /Search -->
+        
+
+        <ul class="navbar-nav flex-row align-items-center ms-auto">
+          
+          <!-- Language -->
+          <li class="nav-item dropdown-language dropdown me-2 me-xl-0">
+            <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+              <i class='fi fi-us fis rounded-circle fs-3 me-1'></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="javascript:void(0);" data-language="en">
+                  <i class="fi fi-us fis rounded-circle fs-4 me-1"></i>
+                  <span class="align-middle">English</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0);" data-language="fr">
+                  <i class="fi fi-fr fis rounded-circle fs-4 me-1"></i>
+                  <span class="align-middle">Swahili</span>
+                </a>
+              </li>
+            
+            </ul>
+          </li>
+          <!--/ Language -->
+
+
+          
+
+         
+
+          <!-- Quick links  -->
+          <li class="nav-item dropdown-shortcuts navbar-dropdown dropdown me-2 me-xl-0">
+            <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+              <i class='bx bx-grid-alt bx-sm'></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end py-0">
+              <div class="dropdown-menu-header border-bottom">
+                <div class="dropdown-header d-flex align-items-center py-3">
+                  <h5 class="text-body mb-0 me-auto">Shortcuts</h5>
+                
+                </div>
+              </div>
+              <div class="dropdown-shortcuts-list scrollable-container">
+                <div class="row row-bordered overflow-visible g-0">
+                  <div class="dropdown-shortcuts-item col">
+                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                      <i class="bx bx-message fs-4"></i>
+                    </span>
+                    <a href="app-calendar.html" class="stretched-link">Messages</a>
+                    <small class="text-muted mb-0">Bulk SMS</small>
+                  </div>
+                  <div class="dropdown-shortcuts-item col">
+                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                      <i class="bx bx-calendar fs-4"></i>
+                    </span>
+                    <a href="app-invoice-list.html" class="stretched-link">Attendance</a>
+                    <small class="text-muted mb-0">Member Attendance</small>
+                  </div>
+                </div>
+                <div class="row row-bordered overflow-visible g-0">
+                  <div class="dropdown-shortcuts-item col">
+                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                      <i class="bx bx-user fs-4"></i>
+                    </span>
+                    <a href="app-user-list.html" class="stretched-link">Group Members</a>
+                    <small class="text-muted mb-0">Manage Group Members</small>
+                  </div>
+                  <div class="dropdown-shortcuts-item col">
+                    <span class="dropdown-shortcuts-icon bg-label-secondary rounded-circle mb-2">
+                      <i class="bx bx-user-check fs-4"></i>
+                    </span>
+                    <a href="app-access-roles.html" class="stretched-link">Role Management</a>
+                    <small class="text-muted mb-0">Roles & Permissions</small>
+                  </div>
+                </div>
+        
+          
+              </div>
+            </div>
+          </li>
+          <!-- Quick links -->
+
+         
+
+          <!-- User -->
+          <li class="nav-item navbar-dropdown dropdown-user dropdown">
+            <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+              <div class="avatar avatar-online">
+                <img src="../assets/img/avatars/1.png" alt class="rounded-circle">
+              </div>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="pages-account-settings-account.html">
+                  <div class="d-flex">
+                    <div class="flex-shrink-0 me-3">
+                      <div class="avatar avatar-online">
+                        <img src="../assets/img/avatars/1.png" alt class="rounded-circle">
+                      </div>
+                    </div>
+                    <div class="flex-grow-1">
+                      <span class="fw-semibold d-block lh-1">John Doe</span>
+                      <small>Admin</small>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            
+
+          
+              <li>
+                <div class="dropdown-divider"></div>
+              </li>
+              <li>
+                <a class="dropdown-item" href="login.html" target="_blank">
+                  <i class="bx bx-power-off me-2"></i>
+                  <span class="align-middle">Log Out</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--/ User -->
+          
+
+        </ul>
+      </div>
+
+      
+      <!-- Search Small Screens -->
+      <div class="navbar-search-wrapper search-input-wrapper  d-none">
+        <input type="text" class="form-control search-input container-fluid border-0" placeholder="Search..." aria-label="Search...">
+        <i class="bx bx-x bx-sm search-toggler cursor-pointer"></i>
+      </div>
+      
+      
+    </div>
+  </nav>
+  
+
+  
+<!-- / Navbar -->
+
+      
+
+      <!-- Content wrapper -->
+      <div class="content-wrapper">
+
+        <!-- Content -->
+        
+          <div class="container-xxl flex-grow-1 container-p-y">
+            
+            
+<h4 class="py-3 breadcrumb-wrapper mb-2">Manage Roles</h4>
+
+
+<!-- Role cards -->
+<div class="row g-4">
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between mb-2">
+          <h6 class="fw-normal">Total 4 users</h6>
+    
+        </div>
+        <div class="d-flex justify-content-between align-items-end">
+          <div class="role-heading">
+            <h4 class="mb-1">Administrator</h4>
+            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#addRoleModal" class="role-edit-modal"><small>Edit Role</small></a>
+          </div>
+          <a href="javascript:void(0);" class="text-muted"><i class="bx bx-copy"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between mb-2">
+          <h6 class="fw-normal">Total 7 users</h6>
+   
+        </div>
+        <div class="d-flex justify-content-between align-items-end">
+          <div class="role-heading">
+            <h4 class="mb-1">Manager</h4>
+            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#addRoleModal" class="role-edit-modal"><small>Edit Role</small></a>
+          </div>
+          <a href="javascript:void(0);" class="text-muted"><i class="bx bx-copy"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between mb-2">
+          <h6 class="fw-normal">Total 5 users</h6>
+        
+        </div>
+        <div class="d-flex justify-content-between align-items-end">
+          <div class="role-heading">
+            <h4 class="mb-1">Users</h4>
+            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#addRoleModal" class="role-edit-modal"><small>Edit Role</small></a>
+          </div>
+          <a href="javascript:void(0);" class="text-muted"><i class="bx bx-copy"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between mb-2">
+          <h6 class="fw-normal">Total 3 users</h6>
+   
+        </div>
+        <div class="d-flex justify-content-between align-items-end">
+          <div class="role-heading">
+            <h4 class="mb-1">Support</h4>
+            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#addRoleModal" class="role-edit-modal"><small>Edit Role</small></a>
+          </div>
+          <a href="javascript:void(0);" class="text-muted"><i class="bx bx-copy"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between mb-2">
+          <h6 class="fw-normal">Total 2 users</h6>
+      
+        </div>
+        <div class="d-flex justify-content-between align-items-end">
+          <div class="role-heading">
+            <h4 class="mb-1">Restricted User</h4>
+            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#addRoleModal" class="role-edit-modal"><small>Edit Role</small></a>
+          </div>
+          <a href="javascript:void(0);" class="text-muted"><i class="bx bx-copy"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card h-100">
+      <div class="row h-100">
+        <div class="col-sm-5">
+          <div class="d-flex align-items-end h-100 justify-content-center mt-sm-0 mt-3">
+            <img src="../../assets/img/illustrations/lady-with-laptop-light.png" class="img-fluid" alt="Image" width="100" data-app-light-img="illustrations/lady-with-laptop-light.png" data-app-dark-img="illustrations/lady-with-laptop-dark.html">
+          </div>
+        </div>
+        <div class="col-sm-7">
+          <div class="card-body text-sm-end text-center ps-sm-0">
+            <button data-bs-target="#addRoleModal" data-bs-toggle="modal" class="btn btn-primary mb-3 text-nowrap add-new-role">Add New Role</button>
+            <p class="mb-0">Add role, if it does not exist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <!-- Role Table -->
+   <div class="card">
+  <div class="table-responsive">
+    <div class="table-wrapper">
+      <div class="table-title">
+        <div class="row">
+          <div class="col-sm-6">
+         
+          </div>
+          <div class="col-sm-6">
+           
+      
+               <button type="button" class="btn btn-secondary" data-bs-toggle="modal" > <i class="material-icons">file_download</i> <span>Export</span> </button>  
+          </div>
+        </div>
+      </div>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>
+              <span class="custom-checkbox">
+                <input type="checkbox" id="selectAll">
+                <label for="selectAll"></label>
+              </span>
+            </th>
+            <th>Role ID</th>
+            <th>Role Name</th>
+           <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="custom-checkbox">
+                <input type="checkbox" id="checkbox1" name="options[]" value="1">
+                <label for="checkbox1"></label>
+              </span>
+            </td>
+             <td>001</td>
+            <td>Member</td>
+         
+            <td class="bg-label-success">Active</td>
+            <td>
+                 <a href="#viewpermissions" class="text-primary" data-bs-toggle="modal" ><i class="material-icons" data-bs-toggle="tooltip"  title="View Permissions">visibility</i></a>
+                  
+              <a href="javascript:;" class="edit role-edit-modal" data-bs-toggle="modal" data-bs-target="#addRoleModal" ><i class="material-icons" data-bs-toggle="tooltip" title="Edit">&#xE254;</i></a>
+              <a href="#DeactivateRoleModal" class="delete" data-bs-toggle="modal"><i class="material-icons" data-bs-toggle="tooltip" title="Deactivate">&#xE872;</i></a>
+            </td>
+          </tr>
+
+ 
+             
+     
+        </tbody>
+      </table>
+      <div class="clearfix">
+        <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+        <ul class="pagination">
+          <li class="page-item disabled"><a href="#">Previous</a></li>
+          <li class="page-item"><a href="#" class="page-link">1</a></li>
+          <li class="page-item"><a href="#" class="page-link">2</a></li>
+          <li class="page-item active"><a href="#" class="page-link">3</a></li>
+          <li class="page-item"><a href="#" class="page-link">4</a></li>
+          <li class="page-item"><a href="#" class="page-link">5</a></li>
+          <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>        
+</div>
+    <!--/ Role Table -->
+  </div>
+</div>
+<!--/ Role cards -->
+
+
+<!-- Add Role Modal -->
+<div class="modal fade" id="addRoleModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-add-new-role">
+    <div class="modal-content p-3 p-md-5">
+      <button type="button" class="btn-close btn-pinned" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <h3 class="role-title">Add New Role</h3>
+          <p>Set role permissions</p>
+        </div>
+        <!-- Add role form -->
+        <form id="addRoleForm" class="row g-3" onsubmit="return false">
+          <div class="col-12 mb-4">
+            <label class="form-label" for="modalRoleName">Role Name</label>
+            <input type="text" id="modalRoleName" name="modalRoleName" class="form-control" placeholder="Enter a role name" tabindex="-1" />
+          </div>
+          <div class="col-12">
+            <h5>Role Permissions</h5>
+            <!-- Permission table -->
+            <div class="table-responsive">
+              <table class="table table-flush-spacing">
+                <tbody>
+                  <tr>
+                    <td class="text-nowrap">Administrator Access <i class="bx bx-info-circle bx-xs" data-bs-toggle="tooltip" data-bs-placement="top" title="Allows a full access to the system"></i></td>
+                    <td>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="selectAll" />
+                        <label class="form-check-label" for="selectAll">
+                          Select All
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">User Management</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="userManagementRead" />
+                          <label class="form-check-label" for="userManagementRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="userManagementWrite" />
+                          <label class="form-check-label" for="userManagementWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="userManagementCreate" />
+                          <label class="form-check-label" for="userManagementCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">Content Management</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="contentManagementRead" />
+                          <label class="form-check-label" for="contentManagementRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="contentManagementWrite" />
+                          <label class="form-check-label" for="contentManagementWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="contentManagementCreate" />
+                          <label class="form-check-label" for="contentManagementCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">Disputes Management</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="dispManagementRead" />
+                          <label class="form-check-label" for="dispManagementRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="dispManagementWrite" />
+                          <label class="form-check-label" for="dispManagementWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="dispManagementCreate" />
+                          <label class="form-check-label" for="dispManagementCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">Database Management</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="dbManagementRead" />
+                          <label class="form-check-label" for="dbManagementRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="dbManagementWrite" />
+                          <label class="form-check-label" for="dbManagementWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="dbManagementCreate" />
+                          <label class="form-check-label" for="dbManagementCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">Financial Management</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="finManagementRead" />
+                          <label class="form-check-label" for="finManagementRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="finManagementWrite" />
+                          <label class="form-check-label" for="finManagementWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="finManagementCreate" />
+                          <label class="form-check-label" for="finManagementCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">Reporting</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="reportingRead" />
+                          <label class="form-check-label" for="reportingRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="reportingWrite" />
+                          <label class="form-check-label" for="reportingWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="reportingCreate" />
+                          <label class="form-check-label" for="reportingCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">API Control</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="apiRead" />
+                          <label class="form-check-label" for="apiRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="apiWrite" />
+                          <label class="form-check-label" for="apiWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="apiCreate" />
+                          <label class="form-check-label" for="apiCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">Repository Management</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="repoRead" />
+                          <label class="form-check-label" for="repoRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="repoWrite" />
+                          <label class="form-check-label" for="repoWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="repoCreate" />
+                          <label class="form-check-label" for="repoCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">Payroll</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="payrollRead" />
+                          <label class="form-check-label" for="payrollRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="payrollWrite" />
+                          <label class="form-check-label" for="payrollWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="payrollCreate" />
+                          <label class="form-check-label" for="payrollCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Permission table -->
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
+            <button type="reset" class="btn btn-label-secondary" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+          </div>
+        </form>
+        <!--/ Add role form -->
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Add Role Modal -->
+
+<!-- View Permission Modal -->
+<div class="modal fade" id="viewpermissions" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-add-new-role">
+    <div class="modal-content p-3 p-md-5">
+      <button type="button" class="btn-close btn-pinned" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <h3 class="role-title">Member Permissions</h3>
+          <p>Set permissions</p>
+        </div>
+        <!-- Add role form -->
+        <form id="viewpermissions" class="row g-3" onsubmit="return false">
+        
+          <div class="col-12">
+         
+            <!-- Permission table -->
+            <div class="table-responsive">
+              <table class="table table-flush-spacing">
+                <tbody>
+            
+                  <tr>
+                    <td class="text-nowrap">View Contributions</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="userManagementRead"  checked disabled />
+                          <label class="form-check-label" for="userManagementRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="userManagementWrite" checked disabled/>
+                          <label class="form-check-label" for="userManagementWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="userManagementCreate" checked disabled/>
+                          <label class="form-check-label" for="userManagementCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-nowrap">View Loans</td>
+                    <td>
+                      <div class="d-flex">
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="contentManagementRead" checked disabled/>
+                          <label class="form-check-label" for="contentManagementRead">
+                            Read
+                          </label>
+                        </div>
+                        <div class="form-check me-3 me-lg-5">
+                          <input class="form-check-input" type="checkbox" id="contentManagementWrite" disabled />
+                          <label class="form-check-label" for="contentManagementWrite">
+                            Write
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="contentManagementCreate"checked disabled />
+                          <label class="form-check-label" for="contentManagementCreate">
+                            Create
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+               
+           
+        
+      
+          
+                </tbody>
+              </table>
+            </div>
+            <!-- Permission table -->
+          </div>
+          <div class="col-12 text-center">
+       
+            <button type="reset" class="btn btn-label-secondary" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+          </div>
+        </form>
+        <!--/ Add role form -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- / View Permission Modal -->
+
+
+<!-- Deactivate Modal HTML -->
+<div id="DeactivateRoleModal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form>
+        <div class="modal-header">            
+          <h4 class="modal-title">Deactivate Role</h4>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">          
+          <p>Are you sure you want to Deactivate this role </p>
+          <p class="text-warning"><small>This action cannot be undone.</small></p>
+        </div>
+        <div class="modal-footer">
+          <button type="reset" class="btn btn-label-secondary" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+          <input type="submit" class="btn btn-danger" value="Deactivate">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+            
+          </div>
+          <!-- / Content -->
+
+          
+          
+
+<!-- Footer -->
+<footer class="content-footer footer bg-footer-theme">
+  <div class="container-fluid d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+    <div class="mb-2 mb-md-0">
+      © <script>
+      document.write(new Date().getFullYear())
+      </script>
+       <a href="#" target="_blank" class="footer-link fw-semibold">STANBIC VIKUNDI</a>
+    </div>
+    <div>
+      
+      <a href="#" class="footer-link me-4" target="_blank">License</a>
+  
+      
+      <a href="#" target="_blank" class="footer-link me-4">Documentation</a>
+      
+      
+      <a href="#" target="_blank" class="footer-link d-none d-sm-inline-block">Contact Support</a>
+      
+    </div>
+  </div>
+</footer>
+<!-- / Footer -->
+
+          
+          <div class="content-backdrop fade"></div>
+        </div>
+        <!-- Content wrapper -->
+      </div>
+      <!-- / Layout page -->
+    </div>
+
+    
+    
+    <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
+    
+    
+    <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+    <div class="drag-target"></div>
+    
+  </div>
+  <!-- / Layout wrapper -->
+
+  
+
+  
+
+  
+
+  <!-- Core JS -->
+  <!-- build:js assets/vendor/js/core.js -->
+  <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+  <script src="../assets/vendor/libs/popper/popper.js"></script>
+  <script src="../assets/vendor/js/bootstrap.js"></script>
+  <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+  
+  <script src="../assets/vendor/libs/hammer/hammer.js"></script>
+  
+
+  <script src="../assets/vendor/libs/i18n/i18n.js"></script>
+  <script src="../assets/vendor/libs/typeahead-js/typeahead.js"></script>
+  
+  <script src="../assets/vendor/js/menu.js"></script>
+  <!-- endbuild -->
+
+  <!-- Vendors JS -->
+  <script src="../assets/vendor/libs/datatables/jquery.dataTables.js"></script>
+<script src="../assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+<script src="../assets/vendor/libs/datatables-responsive/datatables.responsive.js"></script>
+<script src="../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.js"></script>
+
+<script src="../assets/vendor/libs/formvalidation/dist/js/FormValidation.min.js"></script>
+<script src="../assets/vendor/libs/formvalidation/dist/js/plugins/Bootstrap5.min.js"></script>
+<script src="../assets/vendor/libs/formvalidation/dist/js/plugins/AutoFocus.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="../assets/js/main.js"></script>
+
+  <!-- Page JS -->
+  <script src="../assets/js/app-access-roles.js"></script>
+<script src="../assets/js/modal-add-role.js"></script>
+</body>
+
+
+
+</html>
